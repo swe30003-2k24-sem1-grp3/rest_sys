@@ -1,12 +1,12 @@
 enum VehicleType {
-    Motorcycle,
-    Bike, 
-    Car
+    MOTORCYCLE,
+    BIKE, 
+    CAR
 }
 
 class DeliveryPerson extends Staff {
-    _regoNumber : string
-    _vehicleType: VehicleType
+    #regoNumber : string
+    #vehicleType: VehicleType
 
     constructor(staffId : number,
         name : string,
@@ -15,9 +15,9 @@ class DeliveryPerson extends Staff {
         regoNumber : string,
         vehicleType : VehicleType) {
         
-        super(staffId, name, dob, position.SalesPerson, address);
-        this._regoNumber = regoNumber;
-        this._vehicleType = vehicleType;
+        super(staffId, name, dob, position.DELIVERYPERSON, address);
+        this.#regoNumber = regoNumber;
+        this.#vehicleType = vehicleType;
     }
 
     /*

@@ -6,7 +6,7 @@ class SalesPerson extends Staff {
         dob : string,
         address : string) {
 
-        super(staffId, name, dob, position.SalesPerson, address);
+        super(staffId, name, dob, position.SALESPERSON, address);
     }
 
     /*
