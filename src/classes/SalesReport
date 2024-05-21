@@ -1,0 +1,13 @@
+class SalesReport {
+    #reportID: number;
+    #date: Date;
+    #totalSales: number;
+    #staffID: number;
+
+    constructor(reportID: number, date: Date, totalSales: number, staffID: number) {
+        this.#reportID = reportID;
+        this.#date = date;
+        this.#totalSales = totalSales;
+        this.#staffID = staffID;
+    }
+}

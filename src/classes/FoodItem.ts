@@ -1,13 +1,13 @@
 class FoodItem {
-    foodID: number;
-    name: string;
-    price: number;
-    category: string;
+    #foodID: number;
+    #name: string;
+    #price: number;
+    #category: string;
 
     constructor(foodID: number, name: string, price: number, category: string) {
-        this.foodID = foodID;
-        this.name = name;
-        this.price = price;
-        this.category = category;
+        this.#foodID = foodID;
+        this.#name = name;
+        this.#price = price;
+        this.#category = category;
     }
 }
