@@ -1,9 +1,18 @@
 class Customer {
-    _customerId: number
+    #customerId: number;
+    #customerName: string;
+    #customerEmail: string;
+    #customerPhone: string;
 
     constructor(
-        consumerId: number
-    ) {
-        this._customerId = consumerId
+        customerId: number,
+        customerName: string,
+        customerEmail: string,
+        customerPhone: string,) 
+    {
+        this.#customerId = customerId;
+        this.#customerName = customerName;
+        this.#customerPhone = customerPhone;
+        this.#customerEmail = customerEmail;
     }
 }
