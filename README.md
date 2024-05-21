@@ -1,6 +1,13 @@
 # Restaurant Information System - Relaxing Koala
 
-##
+## Core Functionality
+- Log in page
+- Place order (Online & Dine in)
+- Reserve table
+- Inventory management
+- Payment
+
+## 
 
 ## React + TypeScript + Vite
 
